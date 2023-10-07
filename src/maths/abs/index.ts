@@ -1,8 +1,7 @@
 /**
  * Abs returns the absolute value of a number.
  * @param {number}  value - Input number
- * @return {number} - Absolute number
- * @return {onerror} - Error Message
+ * @return {number} - Absolute number | error message
  * @description https://en.wikipedia.org/wiki/Absolute_value
  *
  * ### Example

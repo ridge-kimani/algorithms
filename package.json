@@ -2,7 +2,6 @@
   "name": "algorithms-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",

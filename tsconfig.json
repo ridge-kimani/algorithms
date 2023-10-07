@@ -111,5 +111,11 @@
     "listFiles": false /* Print names of files part of the compilation. */,
     "pretty": true /* Stylize errors and messages using color and context. */
   },
-  "exclude": ["src/tests", "node_modules", "jest.config.js"]
+  "exclude": [
+    "src/tests",
+    "node_modules",
+    "jest.config.js",
+    "build",
+    "src/**/*.js"
+  ]
 }

@@ -1,17 +1,17 @@
 /**
  * Abs returns the absolute value of a number.
  * @param {number}  value - Input number
- * @return {number} - Absolute number | error message
+ * @return {number|onerror} - Absolute number | error message
  * @description https://en.wikipedia.org/wiki/Absolute_value
  *
  * ### Example
  * ```js
- * import { index } from 'algorithms-ts'
- * console.log(index(10))
+ * import { abs } from 'algorithms-ts'
+ * console.log(abs(10))
  *  // => 10
- * console.log(index(-10))
+ * console.log(abs(-10))
  * // => 10
- * console.log(index(0))
+ * console.log(abs(0))
  * // => 0
  * ```
  */

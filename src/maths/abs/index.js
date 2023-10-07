@@ -1,4 +1,4 @@
-"use strict";
+'use strict'
 /**
  * Abs returns the absolute value of a number.
  * @param {number}  value - Input number
@@ -17,11 +17,11 @@
  * // => 0
  * ```
  */
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, '__esModule', { value: true })
 const abs = (value) => {
-    const result = Math.abs(value);
-    if (Number.isNaN(result) || typeof value === 'object')
-        throw new TypeError('Parse a number, value is NaN.');
-    return result;
-};
-exports.default = abs;
+  const result = Math.abs(value)
+  if (Number.isNaN(result) || typeof value === 'object')
+    throw new TypeError('Parse a number, value is NaN.')
+  return result
+}
+exports.default = abs

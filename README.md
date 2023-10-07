@@ -2,6 +2,4 @@
 
 Commonly used algorithms
 
-
 ### TODO
-

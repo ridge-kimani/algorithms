@@ -1,2 +1,1 @@
-declare module 'algorithms-ts' {
-}
+declare module 'algorithms-ts' {}

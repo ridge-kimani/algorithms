@@ -1,11 +1,16 @@
 {
-  "name": "algorithms-ts",
+  "name": "@ridge-kimani/algorithms",
   "version": "1.0.0",
   "description": "",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "publishConfig": {
+    "@ridge-kimani:registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
+    "prepublish": "npm run build",
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
-    "build:module": "tsc -p tsconfig.module.json",
     "test:watch": "jest",
     "test": "jest",
     "prepare": "husky install",

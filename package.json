@@ -5,7 +5,7 @@
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "publishConfig": {
-    "@ridge-kimani:registry":"https://npm.pkg.github.com/"
+    "@ridge-kimani:registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "prepublish": "npm run build",

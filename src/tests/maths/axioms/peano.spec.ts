@@ -9,11 +9,10 @@ describe('Peano', () => {
 
   it('should show 0 exists as a natural number', () => {
     expect(peano.zero(0)).toBeTruthy()
-
   })
 
   it('should show every natural number exists with a successor', () => {
-    expect(peano.successor("first")).toBe(2)
+    expect(peano.successor('first')).toBe(2)
   })
 
   it('should show every natural number except 0 a predecessor', () => {
@@ -33,8 +32,7 @@ describe('Peano', () => {
     expect(peano.addition()).toBe(3)
   })
 
-  it ('should prove multiple axioms', () => {
+  it('should prove multiple axioms', () => {
     expect(peano.multiplication()).toBe(2)
   })
-
 })

@@ -1,4 +1,3 @@
-import { prop } from 'ramda'
 export default class Peano {
   nil: number = 0
   values: {
@@ -14,7 +13,7 @@ export default class Peano {
     return value === this.nil
   }
   successor(prefix: 'first' | 'second') {
-    const value = Number(prop(prefix, this.values))
+    const value = Number(this.values[prefix])
     return (this.values[prefix] = value + 1)
   }
 

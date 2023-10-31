@@ -1,13 +1,12 @@
+export const flatten = (array: any[]) => {
+  let result: any[] = []
 
-export const flatten = (array: (any)[]) => {
-  let result: any[] = [];
-
-  while(array.length) {
+  while (array.length) {
     const current = array.pop()
     if (Array.isArray(current)) {
-      array.push(...current);
+      array.push(...current)
     } else {
-      result.unshift(current as any);
+      result.unshift(current as any)
     }
   }
   return result

@@ -7,7 +7,7 @@ describe('Flatten', () => {
   })
 
   it('flattens empty array', () => {
-    const values: never[]= []
+    const values: never[] = []
     expect(flatten(values)).toEqual([])
   })
 })

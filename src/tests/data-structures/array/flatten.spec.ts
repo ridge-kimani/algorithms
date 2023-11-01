@@ -10,4 +10,16 @@ describe('Flatten', () => {
     const values: never[] = []
     expect(flatten(values)).toEqual([])
   })
+
+  it('flattens with mixed datatypes', () => {
+    const values = [1, 2, { another: 3, values: [1, 2, 3, 4] }, [5, 6, 7]]
+    expect(flatten(values)).toEqual([
+      1,
+      2,
+      { another: 3, values: [1, 2, 3, 4] },
+      5,
+      6,
+      7
+    ])
+  })
 })
